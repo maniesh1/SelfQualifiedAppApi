@@ -1,0 +1,14 @@
+_id: env_env_c7e4cebb1b3acd0c1211f116a67ef4867db2f474_sub
+type: Environment
+parentId: env_c7e4cebb1b3acd0c1211f116a67ef4867db2f474
+modified: 1661336940764
+created: 1661336940764
+name: OpenAPI env
+data:
+  scheme: http
+  base_path: ""
+  host: example.com
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1661336940764

@@ -1,0 +1,30 @@
+_id: req_wrk_f162e9150ecc45929b02459d759234af6dbee4c4
+type: Request
+parentId: fld_wrk_f162e9150ecc45929b02459d759234af474c7977
+modified: 1661336940752
+created: 1661336940752
+url: "{{ base_url }}/log"
+name: Add a logs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "value": "string",
+      "note": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661336940752
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

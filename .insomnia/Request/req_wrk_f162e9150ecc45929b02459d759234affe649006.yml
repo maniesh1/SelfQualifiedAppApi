@@ -1,0 +1,30 @@
+_id: req_wrk_f162e9150ecc45929b02459d759234affe649006
+type: Request
+parentId: fld_wrk_f162e9150ecc45929b02459d759234af8c6ae142
+modified: 1661336940759
+created: 1661336940759
+url: "{{ base_url }}/tracker"
+name: Add a new tracker to the tracker table
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Running",
+      "status": "string",
+      "tracker_type": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661336940759
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
